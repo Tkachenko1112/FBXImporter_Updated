@@ -1,0 +1,16 @@
+#pragma once
+#include "../Common.h"
+
+class Material
+{
+public: // methods
+	void Bind();
+	void BindToSecondSlot();
+
+public: // fields
+	std::string name;
+	GLuint ALB = 0;
+	GLuint NRM = 0;
+	GLuint RMA = 0;
+	GLuint E = 0;
+};
